@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36F4F9F3CA582821F9C44874 /* Pods_demolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B90F32219292FBE06FA621 /* Pods_demolTests.framework */; };
+		73970FF725C7DB620047ED5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73970FF625C7DB620047ED5D /* AppDelegate.swift */; };
+		73970FF925C7DB620047ED5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73970FF825C7DB620047ED5D /* SceneDelegate.swift */; };
+		73970FFB25C7DB620047ED5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73970FFA25C7DB620047ED5D /* ViewController.swift */; };
+		73970FFE25C7DB620047ED5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73970FFC25C7DB620047ED5D /* Main.storyboard */; };
+		7397100025C7DB630047ED5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73970FFF25C7DB630047ED5D /* Assets.xcassets */; };
+		7397100325C7DB630047ED5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7397100125C7DB630047ED5D /* LaunchScreen.storyboard */; };
+		7397100E25C7DB630047ED5D /* demolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7397100D25C7DB630047ED5D /* demolTests.swift */; };
+		7397101925C7DB630047ED5D /* demolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7397101825C7DB630047ED5D /* demolUITests.swift */; };
+		73CA309925CA81AE00D65933 /* DYApiTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA309825CA81AE00D65933 /* DYApiTool.swift */; };
+		73CA30AA25CA854800D65933 /* NetRestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA30A925CA854800D65933 /* NetRestTableViewCell.swift */; };
+		73CA30AF25CA880100D65933 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA30AE25CA880100D65933 /* Extension.swift */; };
+		73CA30BD25CA8F6600D65933 /* RestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA30BB25CA8F6600D65933 /* RestViewController.swift */; };
+		73CA30BE25CA8F6600D65933 /* RestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73CA30BC25CA8F6600D65933 /* RestViewController.xib */; };
+		81EB98FA6C372FC6B5C7D048 /* Pods_demol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50151906FCFDA71EA70CF49 /* Pods_demol.framework */; };
+		AA8018B6AECDDB86B2BE60FB /* Pods_demol_demolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0C341DBDD9C71490444D1C /* Pods_demol_demolUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7397100A25C7DB630047ED5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73970FEB25C7DB620047ED5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73970FF225C7DB620047ED5D;
+			remoteInfo = demol;
+		};
+		7397101525C7DB630047ED5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73970FEB25C7DB620047ED5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73970FF225C7DB620047ED5D;
+			remoteInfo = demol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C42E8FB8B5661B4C1F78A7 /* Pods-demol-demolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demol-demolUITests.debug.xcconfig"; path = "Target Support Files/Pods-demol-demolUITests/Pods-demol-demolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11B90F32219292FBE06FA621 /* Pods_demolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0C341DBDD9C71490444D1C /* Pods_demol_demolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demol_demolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32767B3F4C3B5B0BB8F662B0 /* Pods-demol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demol.release.xcconfig"; path = "Target Support Files/Pods-demol/Pods-demol.release.xcconfig"; sourceTree = "<group>"; };
+		73970FF325C7DB620047ED5D /* demol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73970FF625C7DB620047ED5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73970FF825C7DB620047ED5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		73970FFA25C7DB620047ED5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73970FFD25C7DB620047ED5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73970FFF25C7DB630047ED5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7397100225C7DB630047ED5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7397100425C7DB630047ED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7397100925C7DB630047ED5D /* demolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7397100D25C7DB630047ED5D /* demolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demolTests.swift; sourceTree = "<group>"; };
+		7397100F25C7DB630047ED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7397101425C7DB630047ED5D /* demolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7397101825C7DB630047ED5D /* demolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demolUITests.swift; sourceTree = "<group>"; };
+		7397101A25C7DB630047ED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73CA309825CA81AE00D65933 /* DYApiTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYApiTool.swift; sourceTree = "<group>"; };
+		73CA30A925CA854800D65933 /* NetRestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetRestTableViewCell.swift; sourceTree = "<group>"; };
+		73CA30AE25CA880100D65933 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		73CA30BB25CA8F6600D65933 /* RestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestViewController.swift; sourceTree = "<group>"; };
+		73CA30BC25CA8F6600D65933 /* RestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestViewController.xib; sourceTree = "<group>"; };
+		AFD1079944B665899069B856 /* Pods-demolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demolTests.release.xcconfig"; path = "Target Support Files/Pods-demolTests/Pods-demolTests.release.xcconfig"; sourceTree = "<group>"; };
+		B50151906FCFDA71EA70CF49 /* Pods_demol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74EA72B264CB60F6432DDC9 /* Pods-demol-demolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demol-demolUITests.release.xcconfig"; path = "Target Support Files/Pods-demol-demolUITests/Pods-demol-demolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC5AD140BD63C426600E9B58 /* Pods-demol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demol.debug.xcconfig"; path = "Target Support Files/Pods-demol/Pods-demol.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F8BDCFDFFD329563050CAE /* Pods-demolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demolTests.debug.xcconfig"; path = "Target Support Files/Pods-demolTests/Pods-demolTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73970FF025C7DB620047ED5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EB98FA6C372FC6B5C7D048 /* Pods_demol.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7397100625C7DB630047ED5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F4F9F3CA582821F9C44874 /* Pods_demolTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7397101125C7DB630047ED5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8018B6AECDDB86B2BE60FB /* Pods_demol_demolUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70B6BC17A32A35B68A7714B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50151906FCFDA71EA70CF49 /* Pods_demol.framework */,
+				1A0C341DBDD9C71490444D1C /* Pods_demol_demolUITests.framework */,
+				11B90F32219292FBE06FA621 /* Pods_demolTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73970FEA25C7DB620047ED5D = {
+			isa = PBXGroup;
+			children = (
+				73970FF525C7DB620047ED5D /* demol */,
+				7397100C25C7DB630047ED5D /* demolTests */,
+				7397101725C7DB630047ED5D /* demolUITests */,
+				73970FF425C7DB620047ED5D /* Products */,
+				CA1D6F95612FA7AD9F70A740 /* Pods */,
+				70B6BC17A32A35B68A7714B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73970FF425C7DB620047ED5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73970FF325C7DB620047ED5D /* demol.app */,
+				7397100925C7DB630047ED5D /* demolTests.xctest */,
+				7397101425C7DB630047ED5D /* demolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73970FF525C7DB620047ED5D /* demol */ = {
+			isa = PBXGroup;
+			children = (
+				73970FF625C7DB620047ED5D /* AppDelegate.swift */,
+				73970FF825C7DB620047ED5D /* SceneDelegate.swift */,
+				73970FFA25C7DB620047ED5D /* ViewController.swift */,
+				73CA30BB25CA8F6600D65933 /* RestViewController.swift */,
+				73CA30BC25CA8F6600D65933 /* RestViewController.xib */,
+				73CA30A925CA854800D65933 /* NetRestTableViewCell.swift */,
+				73970FFC25C7DB620047ED5D /* Main.storyboard */,
+				73970FFF25C7DB630047ED5D /* Assets.xcassets */,
+				7397100125C7DB630047ED5D /* LaunchScreen.storyboard */,
+				7397100425C7DB630047ED5D /* Info.plist */,
+				73CA309825CA81AE00D65933 /* DYApiTool.swift */,
+				73CA30AE25CA880100D65933 /* Extension.swift */,
+			);
+			path = demol;
+			sourceTree = "<group>";
+		};
+		7397100C25C7DB630047ED5D /* demolTests */ = {
+			isa = PBXGroup;
+			children = (
+				7397100D25C7DB630047ED5D /* demolTests.swift */,
+				7397100F25C7DB630047ED5D /* Info.plist */,
+			);
+			path = demolTests;
+			sourceTree = "<group>";
+		};
+		7397101725C7DB630047ED5D /* demolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7397101825C7DB630047ED5D /* demolUITests.swift */,
+				7397101A25C7DB630047ED5D /* Info.plist */,
+			);
+			path = demolUITests;
+			sourceTree = "<group>";
+		};
+		CA1D6F95612FA7AD9F70A740 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC5AD140BD63C426600E9B58 /* Pods-demol.debug.xcconfig */,
+				32767B3F4C3B5B0BB8F662B0 /* Pods-demol.release.xcconfig */,
+				03C42E8FB8B5661B4C1F78A7 /* Pods-demol-demolUITests.debug.xcconfig */,
+				D74EA72B264CB60F6432DDC9 /* Pods-demol-demolUITests.release.xcconfig */,
+				F0F8BDCFDFFD329563050CAE /* Pods-demolTests.debug.xcconfig */,
+				AFD1079944B665899069B856 /* Pods-demolTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73970FF225C7DB620047ED5D /* demol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7397101D25C7DB630047ED5D /* Build configuration list for PBXNativeTarget "demol" */;
+			buildPhases = (
+				33B52D61DDF65596031BE205 /* [CP] Check Pods Manifest.lock */,
+				73970FEF25C7DB620047ED5D /* Sources */,
+				73970FF025C7DB620047ED5D /* Frameworks */,
+				73970FF125C7DB620047ED5D /* Resources */,
+				64D41337586DADAC4865F1E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demol;
+			productName = demol;
+			productReference = 73970FF325C7DB620047ED5D /* demol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7397100825C7DB630047ED5D /* demolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7397102025C7DB630047ED5D /* Build configuration list for PBXNativeTarget "demolTests" */;
+			buildPhases = (
+				26DECF47C5330B86143767B4 /* [CP] Check Pods Manifest.lock */,
+				7397100525C7DB630047ED5D /* Sources */,
+				7397100625C7DB630047ED5D /* Frameworks */,
+				7397100725C7DB630047ED5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7397100B25C7DB630047ED5D /* PBXTargetDependency */,
+			);
+			name = demolTests;
+			productName = demolTests;
+			productReference = 7397100925C7DB630047ED5D /* demolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7397101325C7DB630047ED5D /* demolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7397102325C7DB630047ED5D /* Build configuration list for PBXNativeTarget "demolUITests" */;
+			buildPhases = (
+				28177B6C888B97BCBB999ED5 /* [CP] Check Pods Manifest.lock */,
+				7397101025C7DB630047ED5D /* Sources */,
+				7397101125C7DB630047ED5D /* Frameworks */,
+				7397101225C7DB630047ED5D /* Resources */,
+				549C32B7FE6AE3B110AF6237 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7397101625C7DB630047ED5D /* PBXTargetDependency */,
+			);
+			name = demolUITests;
+			productName = demolUITests;
+			productReference = 7397101425C7DB630047ED5D /* demolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73970FEB25C7DB620047ED5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					73970FF225C7DB620047ED5D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7397100825C7DB630047ED5D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 73970FF225C7DB620047ED5D;
+					};
+					7397101325C7DB630047ED5D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 73970FF225C7DB620047ED5D;
+					};
+				};
+			};
+			buildConfigurationList = 73970FEE25C7DB620047ED5D /* Build configuration list for PBXProject "demol" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73970FEA25C7DB620047ED5D;
+			productRefGroup = 73970FF425C7DB620047ED5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73970FF225C7DB620047ED5D /* demol */,
+				7397100825C7DB630047ED5D /* demolTests */,
+				7397101325C7DB630047ED5D /* demolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73970FF125C7DB620047ED5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CA30BE25CA8F6600D65933 /* RestViewController.xib in Resources */,
+				7397100325C7DB630047ED5D /* LaunchScreen.storyboard in Resources */,
+				7397100025C7DB630047ED5D /* Assets.xcassets in Resources */,
+				73970FFE25C7DB620047ED5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7397100725C7DB630047ED5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7397101225C7DB630047ED5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26DECF47C5330B86143767B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28177B6C888B97BCBB999ED5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demol-demolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33B52D61DDF65596031BE205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		549C32B7FE6AE3B110AF6237 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demol-demolUITests/Pods-demol-demolUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demol-demolUITests/Pods-demol-demolUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demol-demolUITests/Pods-demol-demolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64D41337586DADAC4865F1E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demol/Pods-demol-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demol/Pods-demol-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demol/Pods-demol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73970FEF25C7DB620047ED5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73970FFB25C7DB620047ED5D /* ViewController.swift in Sources */,
+				73970FF725C7DB620047ED5D /* AppDelegate.swift in Sources */,
+				73CA30AA25CA854800D65933 /* NetRestTableViewCell.swift in Sources */,
+				73CA30AF25CA880100D65933 /* Extension.swift in Sources */,
+				73CA30BD25CA8F6600D65933 /* RestViewController.swift in Sources */,
+				73970FF925C7DB620047ED5D /* SceneDelegate.swift in Sources */,
+				73CA309925CA81AE00D65933 /* DYApiTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7397100525C7DB630047ED5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7397100E25C7DB630047ED5D /* demolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7397101025C7DB630047ED5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7397101925C7DB630047ED5D /* demolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7397100B25C7DB630047ED5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73970FF225C7DB620047ED5D /* demol */;
+			targetProxy = 7397100A25C7DB630047ED5D /* PBXContainerItemProxy */;
+		};
+		7397101625C7DB630047ED5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73970FF225C7DB620047ED5D /* demol */;
+			targetProxy = 7397101525C7DB630047ED5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73970FFC25C7DB620047ED5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73970FFD25C7DB620047ED5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7397100125C7DB630047ED5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7397100225C7DB630047ED5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7397101B25C7DB630047ED5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7397101C25C7DB630047ED5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7397101E25C7DB630047ED5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5AD140BD63C426600E9B58 /* Pods-demol.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = demol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.restgithub.demol.demol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7397101F25C7DB630047ED5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32767B3F4C3B5B0BB8F662B0 /* Pods-demol.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = demol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.restgithub.demol.demol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7397102125C7DB630047ED5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F8BDCFDFFD329563050CAE /* Pods-demolTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = demolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.restgithub.demol.demolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demol.app/demol";
+			};
+			name = Debug;
+		};
+		7397102225C7DB630047ED5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD1079944B665899069B856 /* Pods-demolTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = demolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.restgithub.demol.demolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demol.app/demol";
+			};
+			name = Release;
+		};
+		7397102425C7DB630047ED5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C42E8FB8B5661B4C1F78A7 /* Pods-demol-demolUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = demolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.restgithub.demol.demolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = demol;
+			};
+			name = Debug;
+		};
+		7397102525C7DB630047ED5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D74EA72B264CB60F6432DDC9 /* Pods-demol-demolUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = demolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.restgithub.demol.demolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = demol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73970FEE25C7DB620047ED5D /* Build configuration list for PBXProject "demol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7397101B25C7DB630047ED5D /* Debug */,
+				7397101C25C7DB630047ED5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7397101D25C7DB630047ED5D /* Build configuration list for PBXNativeTarget "demol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7397101E25C7DB630047ED5D /* Debug */,
+				7397101F25C7DB630047ED5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7397102025C7DB630047ED5D /* Build configuration list for PBXNativeTarget "demolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7397102125C7DB630047ED5D /* Debug */,
+				7397102225C7DB630047ED5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7397102325C7DB630047ED5D /* Build configuration list for PBXNativeTarget "demolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7397102425C7DB630047ED5D /* Debug */,
+				7397102525C7DB630047ED5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73970FEB25C7DB620047ED5D /* Project object */;
+}
